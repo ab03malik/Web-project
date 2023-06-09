@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 90vh;
+    width: 100%;
+    background-color: aquamarine;
+    background-image: url(slide-3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 190px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    /* list-style: */
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: lightcoral;
+    font-size: 20px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+
+}
+.left-col{
+    margin-left: 6%;
+}
+.left-col h1{
+    font-size: 60px;
+    color : lightcoral;
+    line-height: 110px;
+    float: left;
+}
+.left-col p{
+    margin-left: -265px;
+    margin-bottom: -100px;
+    float: left;
+    margin-top: 100px;
+    color: lightcoral;
+}
+.right-col{
+    float: right;
+    margin-right: 15%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.right-col p{
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 20px;
+
+}
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+
+/* footer */
+
+#footer {
+      
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+ }
+
+ #footer p {
+    margin-left: 10px;
+    color: wheat;
+    font-size: 20px;
+ }
+
+ #footer ul li{
+    display: inline-block;
+    color: wheat;
+    list-style:none;
+    margin: 10px 10px;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#footer ul li a{
+    text-decoration:none;
+    color: wheat;
+    font-family: sans-serif;
+}
+
+#footer ul li a:hover{
+    color: #ff4321;
+} 
+
+
+.social-links{
+    margin-left: 58%;
+    margin-top: 0px;
+}
+.social-links p {
+    margin-top: -56px;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.social-links p:hover{
+    color: orangered;
+}
+
+.social-links a{
+    text-decoration: none;
+    font-size: 30px;
+    color: wheat;
+    margin-right: 10px;
+    padding-bottom: 3px;
+}
+
+.social-links a:hover{
+ color: #ff4321;
+}
